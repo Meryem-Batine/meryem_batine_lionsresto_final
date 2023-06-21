@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "amatic";
+    src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
+}
+.section-1{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(216, 210, 210);
+    .text-1{
+        width: 40%;
+        margin-right: 20px;
+        .font-amtc{
+            font-family: "";
+        }
+    }
+
+}
+.video{
+    text-decoration: none;
+    color: black;
+}
+.video:hover{
+    color: red;
+}
+.sct1-btn{
+    text-align: start;
+}
+//* section 1
+@media (max-width:769px) {
+    .section-1{
+        height: 150vh;
+        width: 100%;
+        background-color: rgb(216, 210, 210);
+        .text-1{
+            width: 20%;
+            margin-right: 10px;
+        }
+    
+    }
+
+}
+
+@media (min-width:375px) and (max-width:426px){
+
+}
+//! section 2
+.section-2{
+    height: 90vh;
+
+}
+// .titre-2{
+//     left: 50%;
+//     // transform: translate(0%,-50%);
+// }
+.about-img{
+    height:50vh ;
+    width:30vw ;
+}
+.text-2{
+    width: 25vw;
+}
+
+
