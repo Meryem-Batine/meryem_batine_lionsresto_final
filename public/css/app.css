@@ -12017,6 +12017,13 @@ textarea.form-control-lg {
   height: 40vh;
   background-color: aqua;
 }
+.section-2 .i-1 {
+  margin-top: 10px;
+  margin-bottom: 38px;
+}
+.section-2 .i-2 {
+  margin-bottom: 38px;
+}
 
 @media (max-width: 769px) {
   .section-2 {
@@ -12043,7 +12050,9 @@ textarea.form-control-lg {
     text-align: start;
     height: 45vh;
     width: 90%;
-    margin-right: 5rem;
+    position: absolute;
+    margin-left: 37px;
+    margin-top: 10px;
   }
   .section-2 .video-2 {
     height: 60vh;
@@ -12052,12 +12061,18 @@ textarea.form-control-lg {
     margin: auto;
     margin-top: 25px;
   }
+  .section-2 .i-1 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .section-2 .i-2 {
+    margin-bottom: 40px;
+  }
 }
 @media (min-width: 375px) and (max-width: 426px) {
   .section-2 {
-    height: 240vh;
+    height: 215vh;
     margin-top: 5rem;
-    background-color: black;
     text-align: center;
     position: relative;
   }
@@ -12081,13 +12096,19 @@ textarea.form-control-lg {
   }
   .section-2 .text-2 {
     text-align: start;
+    height: 80vh;
     width: 90%;
-    height: 60vh;
-    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .section-2 .text-2 .i-1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .section-2 .text-2 .i-2 {
+    margin-bottom: 50px;
   }
   .section-2 .video-2 {
     height: 40vh;
-    width: 100%;
     background-color: aqua;
     margin: auto;
     margin-top: 25px;

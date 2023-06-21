@@ -1,3 +1,4 @@
+//^ section 1 /////////////////////////////////////////////////////////////////
 .section-1{
     height: 80vh;
     width: 100%;
@@ -31,7 +32,7 @@
         height:500px;
     }
 }
-//* tablet section 1
+//& tablet section 1//////////////////////////////////////////////////////////
 @media (max-width:769px) {
     .section-1{
         height: 140vh;
@@ -62,6 +63,7 @@
     align-items: center;
 }
 }
+//? mobil 1 /////////////////////////////////////////////////////////////////
 @media (min-width:375px) and (max-width:426px){
         .section-1{
             height: 120vh;
@@ -105,7 +107,7 @@
     align-items: center;
 }
 
-//^ section 2-------------------------------------------------------------
+//^ section 2///////////////////////////////////////////////////////////////
 .section-2{
     height: 100vh;
     margin-top: 5rem;
@@ -144,9 +146,16 @@
     // .image-2{
     //     background-image: url(../images/about.jpg);
     // }
+    .i-1{
+        margin-top: 10px;
+        margin-bottom: 38px;
+    }
+    .i-2{
+        margin-bottom: 38px;
+    }
 
 }
-//* tablet section 2------------------------------------
+//& tablet section 2//////////////////////////////////////////////////////////
 @media (max-width:769px){
     .section-2{
         height: 200vh;
@@ -171,7 +180,9 @@
             text-align: start;
             height: 45vh;
             width: 90%;
-            margin-right: 5rem;
+            position: absolute;
+            margin-left: 37px;   
+            margin-top: 10px;    
         }
         .video-2{
             height:60vh ;
@@ -180,15 +191,22 @@
             margin: auto;
             margin-top: 25px;
         }
+        .i-1{
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        .i-2{
+            margin-bottom: 40px;
+
+        }
     
     }
 }
-//* mobil--------------------------------------------
+//? mobil 2 /////////////////////////////////////////////////////////////////
 @media (min-width:375px) and (max-width:426px){
     .section-2{
-        height: 240vh;
+        height: 215vh;
         margin-top: 5rem;
-        background-color: black;
         text-align: center;
         position: relative;
         .font-2{
@@ -211,22 +229,26 @@
         }
         .text-2{
             text-align: start;
-            width: 90%;
-            height: 60vh;
-            margin-top: 20px;
-
+            height:80vh ;
+            width:90% ;
+            margin-left: 10px;
+            .i-1{
+                margin-top: 10px;
+                margin-bottom:50px;
+            }
+            .i-2{
+                margin-bottom: 50px;
+            }
         }
         .video-2{
             height:40vh ;
-            width:100% ;
             background-color: aqua;
             margin: auto;
             margin-top: 25px;
-
-
         }
     
     }
+
 }
 
 
