@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <nav class=" d-flex justify-content-between align-items-center bg-primary">
+        <nav class=" d-flex justify-content-between align-items-center">
             <div class="container-fluid text-start  w-25 mx-lg-4">
-                <a class="navbar-brand logo" href="#">LionsResto <span class="text-danger">.</span></a>
+                <a class="navbar-brand logo" href="#"><b>LionsResto<span class="text-danger">.</span></b></a>
             </div>
             <div class=" nav-1">
                 <ul
@@ -65,27 +65,68 @@
             <button class="bg-danger conx mx-md-1 mx-lg-4 ">Connexion</button>
 
                     <!--? menu bar -->
-        <div class="dropdown d-block d-md-block d-lg-none drop-nav mx-3">
-            <a class="drop-nav-1" data-bs-toggle="dropdown" href="#"><i class="fa-solid fa-bars fa-xl"
-                    style="color:#868184"></i></a>
-            <ul class="dropdown-menu bg-red">
-                <li><a class="dropdown-item" href="#">HOME</a></li>
-                <li><a class="dropdown-item" href="#">ABOUTUS</a></li>
-                <li><a class="dropdown-item" href="#">MENULIST</a></li>
-                <li><a class="dropdown-item" href="#">TEAM</a></li>
-                <li><a class="dropdown-item" href="#">RESERVATION</a></li>
-                <li><a class="dropdown-item" href="#">BLOG</a></li>
-                <li><a class="dropdown-item" href="#">TESTIMONIALS</a></li>
-                <li><a class="dropdown-item" href="#">CONTACTUS</a></li>
-            </ul>
+        <div class="menu-bergre d-lg-none">
+            <nav class="navbar ">
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header ">
+                        <div class="offcanvas-header "></div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv  " href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv " href="#">Menu</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv  " href="#">Events</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv  " href="#">Chefs</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv  " href="#">Gallery</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle text-coleur-link-navv" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Drop Down
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="nav-link text-coleur-link-navv " href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
         </div>
+        <!-- end menu-bergre -->
         </nav>
 
     </header>
     <!--* section 1 --------------------------------------------------------------------------------------->
     <section class="section-1">
         <div class=" section-x">
-            <div class="text-1  bg-secondary ">
+            <div class="text-1 ">
                 <p class="font ms-md-6">ENJOY YOUR HEALTHY DELICIOUS FOOD</p>
                 <p class="text-1-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita mollitia neque voluptas
                     distinctio, amet aliquid eos natus ea itaque</p>
@@ -118,8 +159,8 @@
                     <h3 class="text-danger">+1 5525 55778 55</h3>
                 </div>
             </div>
-            <div class="text-2 bg-danger">
-                <div>
+            <div class="text-2 bg-danger mt-md-3">
+                <div class="prgs">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nihil aspernatur
                         ullam cupiditate labore. Rem, earum voluptatem. Ea, sequi adipisci

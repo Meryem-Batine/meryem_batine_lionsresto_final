@@ -105,7 +105,7 @@
     align-items: center;
 }
 
-//! section 2-------------------------------------------------------------
+//^ section 2-------------------------------------------------------------
 .section-2{
     height: 100vh;
     margin-top: 5rem;
@@ -120,7 +120,7 @@
     }
     .about-img{
         height:87vh ;
-        width:45vw ;
+        width:50vw ;
     }
     .number{
         position: absolute;
@@ -141,9 +141,12 @@
         height: 40vh;
         background-color: aqua;
     }
+    // .image-2{
+    //     background-image: url(../images/about.jpg);
+    // }
 
 }
-//* tablet section 2
+//* tablet section 2------------------------------------
 @media (max-width:769px){
     .section-2{
         height: 200vh;
@@ -166,10 +169,9 @@
         }
         .text-2{
             text-align: start;
-            width: 90%;
             height: 45vh;
-            margin-left: 38px;
-            margin-top: 20px;
+            width: 90%;
+            margin-right: 5rem;
         }
         .video-2{
             height:60vh ;
@@ -177,16 +179,16 @@
             background-color: aqua;
             margin: auto;
             margin-top: 25px;
-
         }
     
     }
 }
-//* mobil
+//* mobil--------------------------------------------
 @media (min-width:375px) and (max-width:426px){
     .section-2{
         height: 240vh;
         margin-top: 5rem;
+        background-color: black;
         text-align: center;
         position: relative;
         .font-2{
@@ -209,10 +211,10 @@
         }
         .text-2{
             text-align: start;
-            width: 100%;
+            width: 90%;
             height: 60vh;
-            margin-left: 38px;
             margin-top: 20px;
+
         }
         .video-2{
             height:40vh ;
@@ -220,6 +222,7 @@
             background-color: aqua;
             margin: auto;
             margin-top: 25px;
+
 
         }
     

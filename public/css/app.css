@@ -11996,7 +11996,7 @@ textarea.form-control-lg {
 }
 .section-2 .about-img {
   height: 87vh;
-  width: 45vw;
+  width: 50vw;
 }
 .section-2 .number {
   position: absolute;
@@ -12041,10 +12041,9 @@ textarea.form-control-lg {
   }
   .section-2 .text-2 {
     text-align: start;
-    width: 90%;
     height: 45vh;
-    margin-left: 38px;
-    margin-top: 20px;
+    width: 90%;
+    margin-right: 5rem;
   }
   .section-2 .video-2 {
     height: 60vh;
@@ -12058,6 +12057,7 @@ textarea.form-control-lg {
   .section-2 {
     height: 240vh;
     margin-top: 5rem;
+    background-color: black;
     text-align: center;
     position: relative;
   }
@@ -12081,9 +12081,8 @@ textarea.form-control-lg {
   }
   .section-2 .text-2 {
     text-align: start;
-    width: 100%;
+    width: 90%;
     height: 60vh;
-    margin-left: 38px;
     margin-top: 20px;
   }
   .section-2 .video-2 {
