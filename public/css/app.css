@@ -1,11 +1,15 @@
 @charset "UTF-8";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@font-face {
+  font-family: "amatic";
+  src: url(../../public/fonts/AmaticSC-Bold.ttf);
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10791,21 +10795,20 @@ textarea.form-control-lg {
   margin-right: 40px;
 }
 
-@font-face {
-  font-family: "amatic";
-  src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
-}
 .section-1 {
   height: 80vh;
   width: 100%;
-  background-color: rgb(216, 210, 210);
+  background-color: #EEEEEE;
 }
 .section-1 .text-1 {
+  padding-top: 80px;
   width: 40%;
   margin-right: 20px;
 }
 .section-1 .text-1 .font-amtc {
-  font-family: "";
+  width: 70%;
+  font-size: 60px;
+  font-family: "amatic";
 }
 
 .video {
@@ -10825,7 +10828,6 @@ textarea.form-control-lg {
   .section-1 {
     height: 150vh;
     width: 100%;
-    background-color: rgb(216, 210, 210);
   }
   .section-1 .text-1 {
     width: 20%;

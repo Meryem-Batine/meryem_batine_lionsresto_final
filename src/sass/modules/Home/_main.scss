@@ -1,16 +1,16 @@
-@font-face {
-    font-family: "amatic";
-    src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
-}
+
 .section-1{
     height: 80vh;
     width: 100%;
-    background-color: rgb(216, 210, 210);
+    background-color: #EEEEEE;
     .text-1{
+        padding-top: 80px;
         width: 40%;
         margin-right: 20px;
         .font-amtc{
-            font-family: "";
+            width: 70%;
+            font-size: 60px;
+            font-family: "amatic";
         }
     }
 
@@ -30,7 +30,6 @@
     .section-1{
         height: 150vh;
         width: 100%;
-        background-color: rgb(216, 210, 210);
         .text-1{
             width: 20%;
             margin-right: 10px;
