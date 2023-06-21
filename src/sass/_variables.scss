@@ -13,3 +13,17 @@ $bright:#EEEEEE;
 $red: #ce0f12;
 $grey-bg: #868184;
 
+
+
+
+$spacer : 1rem ;
+
+$custom-spacers : (
+    6 : $spacer*6 ,
+    7 : $spacer*7 ,
+    8 : $spacer*10 ,
+);
+
+//& Fusionner et écrire nos valeurs d'espacement :
+$spacers : map-merge($spacers , $custom-spacers );
+

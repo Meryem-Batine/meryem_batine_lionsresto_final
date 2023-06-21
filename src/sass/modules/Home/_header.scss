@@ -41,7 +41,7 @@
         color: black;
     }
 }
-.dropdown::after{
+.dropdown:hover{
     color: black;
     text-decoration: underline red;
 }
@@ -73,3 +73,9 @@
     margin-right: 40px;
 }
 
+@media (min-width:375px) and (max-width:426px){
+    .conx{
+        margin-right: 0px;
+        width: 120px;
+    }
+}
