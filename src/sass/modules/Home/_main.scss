@@ -127,12 +127,18 @@
     .number{
         position: absolute;
         background-color: white;
-        height: 13vh;
-        width: 450PX;
-        right: 55%;
+        height: 18vh;
+        width: 600px;
+        right: 48%;
         top: 66%;
         text-align: center;
         padding-top: 20px;
+        h3{
+            font-weight: 700;
+        }
+        h2{
+            font-weight: 700;
+        }
     }
     .text-2{
         width: 30vw;
@@ -143,9 +149,6 @@
         height: 40vh;
         background-color: aqua;
     }
-    // .image-2{
-    //     background-image: url(../images/about.jpg);
-    // }
     .i-1{
         margin-top: 10px;
         margin-bottom: 38px;
@@ -168,8 +171,7 @@
         }
         .number{
             position: absolute;
-            background-color: white;
-            height: 13vh;
+            height: 16vh;
             width: 450PX;
             right: 20%;
             top: 25%;
@@ -231,7 +233,7 @@
             text-align: start;
             height:80vh ;
             width:90% ;
-            margin-left: 10px;
+            margin-left: 5%;
             .i-1{
                 margin-top: 10px;
                 margin-bottom:50px;
@@ -251,48 +253,562 @@
 
 }
 //^ section 3///////////////////////////////////////////////////////////////
-.section-3{
-    width: 100%;
-    background-color: #EEEEEE;
+// .section-3{
+//     width: 100%;
+//     background-color: #EEEEEE;
 
-    .cards-3{
-        width: 90%;
-        margin-left: 70px;
-        height: 60vh;
-        .card-1{
-            width:22vw ;
-            height: 70%;
-            padding: 15px;
-        }
-        .card-2{
-            background-color: white;
-            width: 18vw;
-            height: 35vh;
-            padding: 10px;
-            .icons-3{
-                padding-top: 10px;
-                margin-left: 110px;
-                width: 40px;
-                height: 40px;
-                background-color: pink;
-                text-align: center;
-                border-radius: 20px;
-                i{
-                    margin-bottom: 10px;
+//     .cards-3{
+//         width: 90%;
+//         margin-left: 70px;
+//         height: 60vh;
+//         .card-1{
+//             width:22vw ;
+//             height: 70%;
+//             padding: 15px;
+//         }
+//         .card-2{
+//             background-color: white;
+//             width: 18vw;
+//             height: 35vh;
+//             padding: 10px;
+//             .icons-3{
+//                 padding-top: 10px;
+//                 margin-left: 110px;
+//                 width: 40px;
+//                 height: 40px;
+//                 background-color: pink;
+//                 text-align: center;
+//                 border-radius: 20px;
+//                 i{
+//                     margin-bottom: 10px;
+//                 }
+//             }
+//             p{
+//                 color: #a6a4a4;
+//             }
+//         }
+//     }
+//     .card-2:hover{
+//         width:22vw ;
+//         height: 70%;
+//         i{
+//             margin-bottom: 10px;
+//         }
+//     }
+// }
+
+
+.section3{
+    max-width: 100vw;
+    height: 70vh;
+    background-color: #eeeeee;
+    .cartes{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        .carterouge{
+            height: 480px;
+            background-color: #cc1111;
+            color: white;
+            font-size: 19px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+    
+            .btn{
+                width: 200px;
+                height: 100px;
+                .btn_learn{
+                    border-radius: 20px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 22px;
+                    background-color: #dc5859;
+                    color: white;
+                    border: none;
+                }
+                :hover {
+                    background-color: white;
+                    color: #cc1111;
                 }
             }
-            p{
-                color: #a6a4a4;
+        }
+
+        .all{
+            .carte1
+            {
+                width: 290px;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: white;
+                font-size: 18px;
+           
+                .cercle{
+                    border-radius: 60px;
+                    background-color:#dc585844;
+                    width: 100px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .fa-envelope{
+                        font-size: 46px;
+                        color: #cc1111;
+                    }
+                }
+                
+            }
+
+            :hover {
+            transform: scale(1.1);
+            font-size: normal;
             }
         }
-    }
-    .card-2:hover{
-        width:22vw ;
-        height: 70%;
-        i{
-            margin-bottom: 10px;
+
+.all{
+    .carte2
+    {
+        width: 290px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        font-size: 18px;
+
+        .cercle{
+            border-radius: 60px;
+            background-color:#dc585844;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa-gem{
+                font-size: 46px;
+                color: #cc1111;
+            }
         }
+}
+
+}
+
+.all{
+    
+    .carte3
+    {
+        width: 290px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        font-size: 18px;
+    
+       
+    
+        .cercle{
+            border-radius: 60px;
+            background-color:#dc585844;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa-clipboard{
+                font-size: 46px;
+                color: #cc1111;
+            }
+    
+        }
+    
+      
+    }}}
+}
+// *tabllete
+@media screen and (min-width: 766px) and (max-width: 1024px){
+
+    .section3{
+        max-width: 100vw;
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 90px;
+        .cartes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            gap: -0px;
+            .carterouge{
+                height: 280px;
+                background-color: #cc1111;
+                color: white;
+                font-size: 19px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 50px;
+        
+                .btn{
+                    width: 200px;
+                    height: 100px;
+                    .btn_learn{
+                        border-radius: 20px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 22px;
+                        background-color: #dc5859;
+                        color: white;
+                        border: none;
+                    }
+                    :hover {
+                        background-color: white;
+                        color: #cc1111;
+                    }
+                }
+            }
+    
+            .all{
+                .carte1
+                {
+                    width: 650px;
+                    height: 240px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 18px;
+                    gap: 17px;
+                    margin-top: 10px;
+                    margin-bottom: 70px;
+                    .cercle{
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+
+                        .fa-envelope{
+                            height: 13vh;
+                            font-size: 34px;
+                            color: #cc1111;
+                            border-radius: 60px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
+    
+            .all{
+                .carte2
+                {
+                    width: 650px;
+                    height: 240px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 18px;
+                    gap: 17px;
+                    margin-top: -20px;
+                    margin-bottom: 70px;
+                    .cercle{
+                        border-radius: 60px;
+                        background-color:#dc585844;
+                        width: 100px;
+                        height: 100px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+                        .fa-gem{
+                            height: 13vh;
+                            font-size: 46px;
+                            color: #cc1111;
+                            display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        }
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
+            .all{
+                .carte3
+                {
+                    width: 650px;
+                    height: 240px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 18px;
+                    gap: 17px;
+                    margin-top: -20px;
+                    margin-bottom: 70px;
+                    .cercle{
+                        border-radius: 60px;
+                        background-color:#dc585844;
+                        width: 100px;
+                        height: 100px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+                        .fa-clipboard{
+                            display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 13vh;
+                            font-size: 46px;
+                            color: #cc1111;
+                        }
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
     }
+    }
+}
+
+// *mobile
+@media screen and (min-width: 374px) and (max-width: 426px)
+{
+    .section3{
+        max-width: 100vw;
+        height: 280vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 90px;
+        .cartes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            gap: -10px;
+            .carterouge{
+                width: 360px;
+                height: 380px;
+                background-color: #cc1111;
+                color: white;
+                font-size: 17px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 50px;
+                .btn{
+                    width: 200px;
+                    height: 100px;
+                    .btn_learn{
+                        border-radius: 20px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 22px;
+                        background-color: #dc5859;
+                        color: white;
+                        border: none;
+                    }
+                    :hover {
+                        background-color: white;
+                        color: #cc1111;
+                    }
+                }
+            }
+    
+            .all{
+                .carte1
+                {
+                    width: 360px;
+                    height: 250px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 14px;
+                    gap: 7px;
+                    margin-top: -10px;
+                    margin-bottom: 70px;
+                    padding-bottom: 20px;
+                    padding-top: 70px;
+
+                    .cercle{
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+
+                        .fa-envelope{
+                            font-size: 34px;
+                            color: #cc1111;
+                            border-radius: 60px;
+                            height: 90px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+
+                    h5{
+                        font-size: 17px;
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
+    
+            .all{
+                .carte2
+                {
+                    width: 360px;
+                    height: 250px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 14px;
+                    gap: 7px;
+                    margin-top: -50px;
+                    margin-bottom: 70px;
+                    padding-bottom: 20px;
+                    padding-top: 70px;
+                    .cercle{
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+
+                        .fa-gem{
+                            font-size: 34px;
+                            color: #cc1111;
+                            border-radius: 60px;
+                            height: 90px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+
+                    h5{
+                        font-size: 17px;
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
+            .all{
+                .carte3
+                {
+                width: 360px;
+                    height: 250px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    font-size: 14px;
+                    gap: 7px;
+                    margin-top: -50px;
+                    margin-bottom: 40px;
+                    padding-bottom: 20px;
+                    padding-top: 20px;
+                    .cercle{
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90px;
+
+                        .fa-clipboard{
+                            font-size: 34px;
+                            color: #cc1111;
+                            border-radius: 60px;
+                            height: 90px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                    
+                }
+    
+                :hover {
+                transform: scale(1.1);
+                font-size: normal;
+                }
+            }
+    }
+    h5{
+        font-size: 17px;
+    }
+    }
+
 }
 //^ section 4//////////////////////////////////////////////////////////////////////////
 .section-4{
@@ -300,17 +816,167 @@
     height: 90vh;
     text-align: center;
     background-image: url(../images/stats-bg.jpg);
+    background-color: rgba(26, 25, 25, 0.596);
+    background-blend-mode: darken;
     background-position: center;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.162);
+
     .client{
+        height: 45vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        color: white;
+        p{
+            font-size: 45px;
+            font-weight: bolder;
+        }
+        h6{
+            color: #a6a4a4;
+        }
+        .client-1{
+            width: 32%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
     .div-blanc{
-        height: 40vh;
+        height: 45vh;
         width: 100%;
     }
 }
+//& tablet section 4 //////////////////////////////////////////////////////////
+@media (max-width:769px){
+    .section-4{
+        height: 66vh;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        .client{
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            height:66vh ;
+            width: 75%;
+            padding: 80px;
+            margin-left: 77px;
+            .client-1{
+                width: 100%;
+                margin: auto;
+                margin-bottom: 30px;
+                .clt{
+                    margin-top: 20px;
+                    text-align: center;
+                    p{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .div-blanc{
+        height: 0vh;
+    }
+}
+//? mobil 4 /////////////////////////////////////////////////////////////////
+@media (min-width:375px) and (max-width:426px){
+    .section-4{
+        height: 110vh;
+        background-size: 360%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        .client{
+            margin: auto;
+            .client-1{
+                .clt{
+                    margin-bottom: 90px;
+                    p{
+                        font-size: 35px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .div-blanc{
+            height: 0vh;
+        }
+    }
+}
+//^ section 7///////////////////////////////////////////////////////////////
+.section-7{
+    background-color: #EEEEEE;
+    height: 110vh;
+    padding-top: 50px;
+    .titre-7{
+        color: #868184;
+        .font-7{
+            font-family: "amatic";
+            color: black;
+            font-size: 60px;
+        }
+    }
+    .cards-7{
+        width: 90%;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: wrap;
+        .card-7{
+            height: 80vh;
+            width: 32%;
+            border-radius: 5px;
+            background-color: white;
 
+            img{
+                height: 70%;
+                width: 100%;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            p{
+                color: #c6c3c3;
+            }
+            .para-7{
+                width: 90%;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+//& tablet section 7 //////////////////////////////////////////////////////////
+@media (max-width:769px){
+    .section-7{
+        height: 190vh;
+        .cards-7{
+            width: 95%;
+            height:155vh ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: wrap;
+            margin-left: 20px;
+            background-color: #dc5859;
+            .card-7{
+                height: 72vh;
+                width: 48%;
+                img{
+                    height: 60%;
+                    width: 100%;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
+        }
+    }
+}
+//? mobil 7 /////////////////////////////////////////////////////////////////
+@media (min-width:375px) and (max-width:426px){
+    .section-7{
+        
+    }
+}
