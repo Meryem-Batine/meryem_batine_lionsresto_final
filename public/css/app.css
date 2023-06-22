@@ -12390,10 +12390,12 @@ textarea.form-control-lg {
 }
 .section-2 .font-2 {
   font-family: "amatic";
+  font-size: 68px;
   color: black;
 }
 .section-2 .titre-2 {
   color: #868184;
+  font-size: 20px;
 }
 .section-2 .about-img {
   height: 87vh;
@@ -12438,6 +12440,9 @@ textarea.form-control-lg {
     margin-top: 5rem;
     text-align: center;
     position: relative;
+  }
+  .section-2 .font-2 {
+    font-size: 50px;
   }
   .section-2 .about-img {
     height: 60vh;
@@ -13052,12 +13057,13 @@ textarea.form-control-lg {
   padding-top: 50px;
 }
 .section-7 .titre-7 {
-  color: #979595;
+  color: #868184;
+  font-size: 20px;
 }
 .section-7 .titre-7 .font-7 {
   font-family: "amatic";
+  font-size: 68px;
   color: black;
-  font-size: 60px;
 }
 .section-7 .titre-7 .font-7 .clr-7 {
   color: #cc1111;
@@ -13156,7 +13162,7 @@ textarea.form-control-lg {
 }
 .section8 .para8 .p1 {
   color: #868184;
-  font-size: 38px;
+  font-size: 20px;
 }
 .section8 .para8 .mince {
   font-family: "amatic";
@@ -13200,12 +13206,21 @@ textarea.form-control-lg {
   border-radius: 1px;
   border: 1px solid #979595;
   height: 4vh;
-  font-size: 20px;
+  font-size: 16px;
+  padding: 10px;
   flex-wrap: wrap;
   width: 30%;
+  height: 40%;
+}
+.section8 .alls8 .formulaire .txtarea {
+  border-radius: 1px;
+  border: 1px solid #979595;
+}
+.section8 .alls8 .formulaire .btns8 {
+  margin-top: 5px;
 }
 .section8 .alls8 .formulaire .btns8 .btn8 {
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 30px;
   border: none;
   width: 190px;
@@ -13213,7 +13228,7 @@ textarea.form-control-lg {
   color: white;
   background-color: #cc1111;
 }
-.section8 .alls8 .formulaire .btns8 :hover {
+.section8 .alls8 .formulaire .btns8 .btns8:hover {
   background-color: rgba(204, 17, 17, 0.9333333333);
 }
 
@@ -13287,22 +13302,24 @@ textarea.form-control-lg {
     border-radius: 1px;
     border: 1px solid #979595;
     height: 6vh;
-    font-size: 20px;
+    font-size: 16px;
     flex-wrap: wrap;
     width: 40%;
   }
   .section8 .alls8 .formulaire .btns8 .btn8 {
-    font-size: 20px;
-    border-radius: 50%;
+    font-size: 18px;
+    border-radius: 30px;
     border: none;
-    width: 190px;
-    height: 50px;
+    width: 180px;
+    height: 45px;
     color: white;
     background-color: #cc1111;
   }
   .section8 .alls8 .formulaire .txtarea {
-    width: 500px;
-    font-size: 20px;
+    border-radius: 1px;
+    border: 1px solid #979595;
+    width: 530px;
+    font-size: 18px;
     height: 130px;
   }
 }
@@ -13469,6 +13486,10 @@ textarea.form-control-lg {
   width: 90%;
   padding-top: 30px;
 }
+.section-10 .map-contact .message input {
+  border-radius: 1px;
+  border: 1px solid #979595;
+}
 .section-10 .map-contact .message .input-1 {
   width: 48%;
   height: 8vh;
@@ -13488,6 +13509,8 @@ textarea.form-control-lg {
   width: 100%;
   height: 20vh;
   padding: 10px;
+  border-radius: 1px;
+  border: 1px solid #979595;
 }
 .section-10 .map-contact .div-btn {
   display: flex;
@@ -13602,6 +13625,235 @@ textarea.form-control-lg {
   }
   .section-10 .map-contact .message-1 .message .div-btn {
     padding-top: 15px;
+  }
+}
+.footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #e4dcf4;
+  background-color: #201f24;
+}
+.footer .footer-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.footer .footer-all .adresse {
+  display: flex;
+  gap: 10px;
+}
+.footer .footer-all .adresse .ligne1 i {
+  font-size: 30px;
+  color: #aba8ac;
+}
+.footer .footer-all .adresse .p {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 160px;
+  font-size: 22px;
+  color: #aba8ac;
+  font-weight: 600;
+}
+.footer .footer-all .adresse .p h5, .footer .footer-all .adresse .p .h5 {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+.footer .footer-all .reservation .p p span {
+  font-weight: bold;
+}
+.footer .footer-all .clock .p {
+  width: 200px;
+}
+.footer .footer-all .iconef .p .icones {
+  gap: 20px;
+}
+.footer .footer-all .iconef .p .icones i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 30px;
+  border: 1px solid gray;
+}
+.footer .bottom_ {
+  width: 80vw;
+  height: 1px;
+  border: 1px solid gray;
+}
+.footer .copyright {
+  font-size: 24px;
+  color: #aba8ac;
+}
+.footer .copyright p {
+  font-size: 24px;
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .footer {
+    width: 100vw;
+    height: 120vh;
+    background-color: #e4dcf4;
+    background-color: #201f24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .footer .footer-all {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .footer .footer-all .adresse {
+    display: flex;
+    gap: 10px;
+  }
+  .footer .footer-all .adresse .ligne1 i {
+    font-size: 18px;
+    color: #aba8ac;
+  }
+  .footer .footer-all .adresse .p {
+    margin-bottom: -40px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    font-size: 13px;
+    color: #aba8ac;
+    font-weight: 600;
+  }
+  .footer .footer-all .adresse .p h5, .footer .footer-all .adresse .p .h5 {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  .footer .footer-all .reservation .p p span {
+    font-weight: bold;
+  }
+  .footer .footer-all .clock .p {
+    width: 280px;
+  }
+  .footer .footer-all .iconef .p {
+    width: 280px;
+  }
+  .footer .footer-all .iconef .p .icones {
+    gap: 16px;
+  }
+  .footer .footer-all .iconef .p .icones i {
+    width: 56px;
+    height: 56px;
+    border-radius: 60px;
+    font-size: 23px;
+    border: 1px solid gray;
+  }
+  .footer .bottom_ {
+    width: 80vw;
+    height: 1px;
+    border: 1px solid gray;
+    margin-top: -50px;
+  }
+  .footer .copyright {
+    font-size: 14px;
+    color: #aba8ac;
+    display: flex;
+  }
+  .footer .copyright p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 766px) and (max-width: 900px) {
+  .footer {
+    width: 100vw;
+    height: 60vh;
+    background-color: #e4dcf4;
+    background-color: #201f24;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-all {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .footer .footer-all .adresse {
+    display: flex;
+    gap: 10px;
+    width: 375px;
+    flex-wrap: wrap;
+  }
+  .footer .footer-all .adresse .ligne1 i {
+    font-size: 24px;
+    color: #aba8ac;
+  }
+  .footer .footer-all .adresse .p {
+    margin-bottom: -40px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 160px;
+    font-size: 16px;
+    color: #aba8ac;
+    font-weight: 600;
+  }
+  .footer .footer-all .adresse .p h5, .footer .footer-all .adresse .p .h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  .footer .footer-all .reservation .p p span {
+    font-weight: bold;
+  }
+  .footer .footer-all .clock i {
+    padding-left: 9px;
+  }
+  .footer .footer-all .clock .p {
+    width: 280px;
+  }
+  .footer .footer-all .iconef .p {
+    width: 280px;
+  }
+  .footer .footer-all .iconef .p .icones {
+    gap: 16px;
+  }
+  .footer .footer-all .iconef .p .icones i {
+    width: 56px;
+    height: 56px;
+    border-radius: 60px;
+    font-size: 23px;
+    border: 1px solid gray;
+  }
+  .footer .bottom_ {
+    width: 80vw;
+    height: 1px;
+    border: 1px solid gray;
+    margin-top: 0px;
+  }
+  .footer .bottom_ .copyright {
+    font-size: 10px;
+    color: #aba8ac;
+    display: flex;
+  }
+  .footer .bottom_ .copyright .copy {
+    margin-top: 30px;
+  }
+  .footer .bottom_ .copyright p {
+    font-size: 12px;
+    top: 0;
   }
 }
 
