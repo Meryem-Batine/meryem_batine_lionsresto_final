@@ -13206,7 +13206,7 @@ textarea.form-control-lg {
 }
 .section8 .alls8 .formulaire .btns8 .btn8 {
   font-size: 22px;
-  border-radius: 16px;
+  border-radius: 30px;
   border: none;
   width: 190px;
   height: 50px;
@@ -13220,7 +13220,7 @@ textarea.form-control-lg {
 @media (min-width: 766px) and (max-width: 900px) {
   .section8 {
     width: 100vw;
-    height: 170vh;
+    height: 180vh;
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;
@@ -13292,8 +13292,8 @@ textarea.form-control-lg {
     width: 40%;
   }
   .section8 .alls8 .formulaire .btns8 .btn8 {
-    font-size: 22px;
-    border-radius: 16px;
+    font-size: 20px;
+    border-radius: 50%;
     border: none;
     width: 190px;
     height: 50px;
@@ -13309,7 +13309,7 @@ textarea.form-control-lg {
 @media (min-width: 375px) and (max-width: 426px) {
   .section8 {
     width: 100vw;
-    height: 100vh;
+    height: 180vh;
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;
@@ -13396,8 +13396,9 @@ textarea.form-control-lg {
   }
 }
 .section-10 {
-  height: 200vh;
+  height: 180vh;
   padding-top: 50px;
+  background-color: #EEEEEE;
 }
 .section-10 .titre-10 {
   color: #979595;
@@ -13417,15 +13418,15 @@ textarea.form-control-lg {
   margin-left: 70px;
 }
 .section-10 .map-contact .contact-us {
-  height: 15vh;
+  height: 20vh;
   width: 90%;
   margin-top: 20px;
-  background-color: aquamarine;
   margin-left: 70px;
 }
 .section-10 .map-contact .contact-us .div-1 {
-  background-color: #EEEEEE;
-  width: 45%;
+  background-color: #c6c3c3;
+  height: 15vh;
+  width: 49%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -13450,29 +13451,129 @@ textarea.form-control-lg {
 .section-10 .map-contact .contact-us .div-1 .contenu-10 .font-para {
   font-size: 18px;
 }
-.section-10 .map-contact .message {
-  margin-top: 10px;
-  margin-left: 70px;
-  height: 50vh;
+.section-10 .map-contact .message-1 {
   width: 90%;
-  background-color: blue;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 15px;
+  box-shadow: 5px 10px 20px 10px #e0dddd;
+}
+.section-10 .map-contact .message {
+  height: 60vh;
+  width: 90%;
+  padding-top: 30px;
 }
 .section-10 .map-contact .message .input-1 {
-  width: 46%;
+  width: 48%;
   height: 8vh;
   margin-bottom: 15px;
+  padding: 10px;
 }
 .section-10 .map-contact .message .in-2 {
-  margin-left: 32px;
+  margin-left: 42px;
 }
 .section-10 .map-contact .message .input-2 {
-  width: 95%;
+  width: 100%;
   height: 8vh;
   margin-bottom: 15px;
+  padding: 10px;
 }
 .section-10 .map-contact .message .input-3 {
-  width: 95%;
+  width: 100%;
   height: 20vh;
+  padding: 10px;
+}
+.section-10 .map-contact .div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-10 .map-contact .div-btn .sendbtn {
+  color: white;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #cc1111;
+}
+
+@media (min-width: 766px) and (max-width: 900px) {
+  .section-10 {
+    height: 210vh;
+  }
+  .section-10 .map-contact {
+    margin-left: 0px;
+  }
+  .section-10 .map-contact .maps {
+    margin-left: 40px;
+  }
+  .section-10 .map-contact .contact-us {
+    width: 90%;
+    height: 20vh;
+    margin-left: 40px;
+  }
+  .section-10 .map-contact .contact-us .div-1 {
+    height: 20vh;
+  }
+  .section-10 .map-contact .message-1 {
+    margin-left: 40px;
+    height: 80vh;
+  }
+  .section-10 .map-contact .message-1 .message .input-1 {
+    width: 100%;
+  }
+  .section-10 .map-contact .message-1 .message .in-2 {
+    margin-left: 0;
+  }
+  .section-10 .map-contact .message-1 .message .div-btn {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .section-10 {
+    height: 240vh;
+  }
+  .section-10 .titre-10 {
+    font-size: 16px;
+  }
+  .section-10 .titre-10 .font-10 {
+    font-size: 30px;
+  }
+  .section-10 .map-contact {
+    margin-left: 0;
+  }
+  .section-10 .map-contact .maps {
+    height: 45vh;
+    width: 90%;
+    margin-left: 22px;
+  }
+  .section-10 .map-contact .contact-us {
+    height: 40vh;
+    margin-left: 22px;
+  }
+  .section-10 .map-contact .contact-us .div-1 {
+    height: 20vh;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .section-10 .map-contact .message-1 {
+    height: 75vh;
+    margin-left: 22px;
+    box-shadow: none;
+  }
+  .section-10 .map-contact .message-1 .message .input-1 {
+    width: 100%;
+  }
+  .section-10 .map-contact .message-1 .message .in-2 {
+    margin-left: 0;
+  }
+  .section-10 .map-contact .message-1 .message .div-btn {
+    padding-top: 15px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
