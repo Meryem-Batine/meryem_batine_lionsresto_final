@@ -153,7 +153,7 @@
 
 //^ section 2///////////////////////////////////////////////////////////////
 .section-2 {
-    height: 100vh;
+    height: 110vh;
     margin-top: 5rem;
     position: relative;
 
@@ -161,6 +161,9 @@
         font-family: "amatic";
         font-size: 68px;
         color: black;
+        .txt-red{
+            color: #cc1111;
+        }
     }
 
     .titre-2 {
@@ -222,8 +225,11 @@
         text-align: center;
         position: relative;
 
-        .font-2 {
-            font-size: 50px;
+        .titre-2{
+            font-size: 16px;
+            .font-2 {
+                font-size: 50px;
+            }
         }
 
         .about-img {
@@ -388,7 +394,7 @@
         width: 100vw;
 
         .carterouge {
-            height: 480px;
+            height: 440px;
             background-color: #cc1111;
             color: white;
             font-size: 19px;
@@ -396,19 +402,17 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-
-
             .btn {
                 width: 200px;
                 height: 100px;
-
                 .btn_learn {
                     border-radius: 20px;
                     width: 100%;
+                    height: 45px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 22px;
+                    font-size: 20px;
                     background-color: #dc5859;
                     color: white;
                     border: none;
@@ -422,9 +426,10 @@
         }
 
         .all {
+            
             .carte1 {
                 width: 290px;
-                height: 400px;
+                height: 380px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -448,7 +453,6 @@
                 }
 
             }
-
             :hover {
                 transform: scale(1.1);
                 font-size: normal;
@@ -458,7 +462,7 @@
         .all {
             .carte2 {
                 width: 290px;
-                height: 400px;
+                height: 380px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -481,14 +485,12 @@
                     }
                 }
             }
-
         }
-
         .all {
 
             .carte3 {
                 width: 290px;
-                height: 400px;
+                height: 380px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -523,7 +525,7 @@
 
     .section3 {
         max-width: 100vw;
-        height: 200vh;
+        height: 220vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -545,25 +547,29 @@
             .carterouge {
                 height: 280px;
                 background-color: #cc1111;
-                color: white;
-                font-size: 19px;
+                color:#c6c3c3;
+                font-size: 16px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 margin-bottom: 50px;
-
+                h1{
+                    font-size: 35px;
+                    font-weight: 700;
+                    color: white;
+                }
                 .btn {
                     width: 200px;
-                    height: 100px;
-
+                    height: 80px;
+                    margin-top: 20px;
                     .btn_learn {
-                        border-radius: 20px;
+                        border-radius: 30px;
                         width: 100%;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 22px;
+                        font-size: 18px;
                         background-color: #dc5859;
                         color: white;
                         border: none;
@@ -577,15 +583,19 @@
             }
 
             .all {
+                p{
+                    color:#868184;
+                    padding-bottom: 20px;
+                }
                 .carte1 {
                     width: 650px;
-                    height: 240px;
+                    height: 280px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
                     background-color: white;
-                    font-size: 18px;
+                    font-size: 16px;
                     gap: 17px;
                     margin-top: 10px;
                     margin-bottom: 70px;
@@ -595,7 +605,8 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
+                        width: 70px;
+                        height: 70px;
 
                         .fa-envelope {
                             height: 13vh;
@@ -619,13 +630,13 @@
             .all {
                 .carte2 {
                     width: 650px;
-                    height: 240px;
+                    height: 280px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
                     background-color: white;
-                    font-size: 18px;
+                    font-size: 16px;
                     gap: 17px;
                     margin-top: -20px;
                     margin-bottom: 70px;
@@ -633,12 +644,11 @@
                     .cercle {
                         border-radius: 60px;
                         background-color: #dc585844;
-                        width: 100px;
-                        height: 100px;
+                        width: 70px;
+                        height: 70px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
 
                         .fa-gem {
                             height: 13vh;
@@ -661,13 +671,13 @@
             .all {
                 .carte3 {
                     width: 650px;
-                    height: 240px;
+                    height: 280px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
                     background-color: white;
-                    font-size: 18px;
+                    font-size: 16px;
                     gap: 17px;
                     margin-top: -20px;
                     margin-bottom: 70px;
@@ -675,12 +685,11 @@
                     .cercle {
                         border-radius: 60px;
                         background-color: #dc585844;
-                        width: 100px;
-                        height: 100px;
+                        width: 70px;
+                        height: 70px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
 
                         .fa-clipboard {
                             display: flex;
@@ -707,12 +716,12 @@
 @media screen and (min-width: 374px) and (max-width: 426px) {
     .section3 {
         max-width: 100vw;
-        height: 280vh;
+        height: 230vh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 0px;
 
         .cartes {
             display: flex;
@@ -736,19 +745,18 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                margin-bottom: 50px;
 
                 .btn {
-                    width: 200px;
-                    height: 100px;
+                    width: 160px;
+                    height: 70px;
 
                     .btn_learn {
-                        border-radius: 20px;
+                        border-radius: 30px;
                         width: 100%;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 22px;
+                        font-size: 16px;
                         background-color: #dc5859;
                         color: white;
                         border: none;
@@ -764,7 +772,7 @@
             .all {
                 .carte1 {
                     width: 360px;
-                    height: 250px;
+                    height: 300px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -773,7 +781,7 @@
                     font-size: 14px;
                     gap: 7px;
                     margin-top: -10px;
-                    margin-bottom: 70px;
+                    margin-bottom: 40px;
                     padding-bottom: 20px;
                     padding-top: 70px;
 
@@ -782,8 +790,9 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
-
+                        width: 60px;
+                        height: 60px;
+                        margin-top: 20px;
                         .fa-envelope {
                             font-size: 34px;
                             color: #cc1111;
@@ -810,7 +819,7 @@
             .all {
                 .carte2 {
                     width: 360px;
-                    height: 250px;
+                    height: 300px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -819,16 +828,20 @@
                     font-size: 14px;
                     gap: 7px;
                     margin-top: -50px;
-                    margin-bottom: 70px;
+                    margin-bottom: 40px;
                     padding-bottom: 20px;
                     padding-top: 70px;
+
 
                     .cercle {
 
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
+                        width: 60px;
+                        height: 60px;
+                        margin-top: 20px;
+
 
                         .fa-gem {
                             font-size: 34px;
@@ -856,7 +869,7 @@
             .all {
                 .carte3 {
                     width: 360px;
-                    height: 250px;
+                    height: 300px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -874,7 +887,10 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 90px;
+                        width: 60px;
+                        height: 60px;
+                        margin-top: 20px;
+
 
                         .fa-clipboard {
                             font-size: 34px;
@@ -906,7 +922,7 @@
 //^ section 4//////////////////////////////////////////////////////////////////////////
 .section-4 {
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     text-align: center;
     background-image: url(../images/stats-bg.jpg);
     background-color: rgba(26, 25, 25, 0.596);
@@ -939,7 +955,7 @@
     }
 
     .div-blanc {
-        height: 45vh;
+        height: 5vh;
         width: 100%;
     }
 }
@@ -1012,6 +1028,126 @@
         }
     }
 }
+//^ section 5//////////////////////////////////////////////////////////////////////////
+.section-5{
+    height: 160vh;
+    width: 100%;
+    background-color: rgb(204, 199, 208);
+    .titre-5{
+        color: #868184;
+    }
+    .font-5{
+        font-family: "amatic";
+        font-size: 68px;
+        color: black;
+        .txt-red{
+            color: #cc1111;
+        }
+    }
+    .titre-menu{
+            color: #868184;
+            font-size: 16px;
+            background-color: burlywood;
+            margin-bottom: 0;
+    }
+    .startes{
+        color: #cc1111;
+        background-color: aqua;
+    }
+    .menu{
+        width: 100%;
+        height: 60vh;
+        background-color: #dc5859;
+        .plat-1{
+            width: 350px;
+            height: 450px;
+            background-color: blue;
+            text-align: center;
+            .img-plat{
+                img{
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+            .menu-text{
+                p{
+                    margin: 0;
+                    color:#868184;
+                }
+                .prix-1{
+                    color: #cc1111;
+                }
+            }
+        }
+    }
+}
+//& section 5 tablet //////////////////////////////////////////////
+@media (min-width:766px) and (max-width:900px){
+    .section-5{
+        height: 450vh;
+        margin-top: 20px;
+        .titre-5{
+            font-size: 12px;
+        }
+        .font-5{
+            font-size: 45px;
+        }
+        .titre-menu{
+                font-size: 12px;
+                background-color: burlywood;
+                margin-bottom: 0;
+        }
+        .startes{
+            background-color: aqua;
+            font-size: 30px;
+        }
+        .menu{
+            width: 100%;
+            height: 200vh;
+            background-color: #dc5859;
+            .plat-1{
+                width: 360px;
+                height: 450px;
+                background-color: blue;
+                .img-plat{
+                    background-color: #201f24;
+                    img{
+                        width: 340px;
+                        height: 350px;
+                    }
+                }
+                .menu-text{
+                    p{
+                        margin: 0;
+                        color:#868184;
+                    }
+                    .prix-1{
+                        color: #cc1111;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //^ section 7///////////////////////////////////////////////////////////////
 .section-7 {
@@ -1074,6 +1210,7 @@
         height: 190vh;
 
         .titre-7 {
+            font-size: 16px;
             .font-7 {
                 font-size: 50px;
             }
@@ -1230,7 +1367,6 @@
         }
     }
 }
-
 //& section 8 tablette //////////////////////////////////////////////
 @media (min-width:766px) and (max-width:900px) {
     .section8 {
@@ -1250,7 +1386,7 @@
 
             .p1 {
                 color: #868184;
-                font-size: 24px;
+                font-size: 16px;
             }
 
             .mince {
@@ -1275,8 +1411,7 @@
             // justify-content: center;
             // align-items: center;
             .imgs8 {
-
-                width: 640px;
+                width: 637px;
                 height: 490px;
 
                 img {
@@ -1384,10 +1519,8 @@
             flex-direction: column;
 
             .imgs8 {
-
-                width: 300px;
+                width: 340px;
                 height: 300px;
-
                 img {
                     width: 100%;
                     height: 100%;
@@ -1428,8 +1561,8 @@
 
                 .btns8 {
                     .btn8 {
-                        font-size: 17px;
-                        border-radius: 16px;
+                        font-size: 16px;
+                        border-radius: 20px;
                         border: none;
                         width: 180px;
                         height: 40px;
@@ -1437,10 +1570,9 @@
                         background-color: #cc1111;
                     }
                 }
-
                 .txtarea {
-                    width: 240px;
-                    font-size: 15px;
+                    width: 270px;
+                    font-size: 16px;
                     height: 130px;
                 }
             }
