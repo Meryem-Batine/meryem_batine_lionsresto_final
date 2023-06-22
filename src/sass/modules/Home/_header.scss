@@ -1,27 +1,28 @@
-* {
+*,*:before,*:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.nav-1 {
-    width: 60vw;
-}
-
 .logo {
     font-size: 30px;
-    margin-left: 0px;
+    margin-left: 40px;
 }
+.nav-1 {
+    width: 60vw;
+
+    .link-nav {
+        width: 50vw;
+        color:#868184;
+    }
+
+
+}
+
 
 .nav-item:hover {
     color: black;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #ce0f12;
 }
-
-.link-nav {
-    width: 50vw;
-}
-
 .drop-1 {
     text-decoration: none;
     color: black;

@@ -910,7 +910,7 @@
     height: 110vh;
     padding-top: 50px;
     .titre-7{
-        color: #868184;
+        color: #979595;
         .font-7{
             font-family: "amatic";
             color: black;
@@ -951,6 +951,11 @@
 @media (max-width:769px){
     .section-7{
         height: 190vh;
+        .titre-7{
+            .font-7{
+                font-size: 50px;
+            }
+        }
         .cards-7{
             width: 95%;
             height:155vh ;
@@ -960,7 +965,6 @@
             align-items: center;
             flex-flow: wrap;
             margin-left: 20px;
-            background-color: #dc5859;
             .card-7{
                 height: 72vh;
                 width: 48%;
@@ -977,6 +981,23 @@
 //? mobil 7 /////////////////////////////////////////////////////////////////
 @media (min-width:375px) and (max-width:426px){
     .section-7{
-        
+        height: 275vh;
+        .titre-7{
+            .font-7{
+                font-size: 44px;
+            }
+        }
+        .cards-7{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 250vh;
+            width: 90%;
+            .card-7{
+                height: 78vh;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
     }
 }

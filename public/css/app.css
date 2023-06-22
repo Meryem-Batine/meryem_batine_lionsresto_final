@@ -11801,28 +11801,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.logo {
+  font-size: 30px;
+  margin-left: 40px;
+}
+
 .nav-1 {
   width: 60vw;
 }
-
-.logo {
-  font-size: 30px;
-  margin-left: 0px;
+.nav-1 .link-nav {
+  width: 50vw;
+  color: #868184;
 }
 
 .nav-item:hover {
   color: black;
-  border-bottom: 2px solid red;
-}
-
-.link-nav {
-  width: 50vw;
+  border-bottom: 2px solid #ce0f12;
 }
 
 .drop-1 {
@@ -12651,7 +12651,7 @@ textarea.form-control-lg {
   padding-top: 50px;
 }
 .section-7 .titre-7 {
-  color: #868184;
+  color: #979595;
 }
 .section-7 .titre-7 .font-7 {
   font-family: "amatic";
@@ -12691,6 +12691,9 @@ textarea.form-control-lg {
   .section-7 {
     height: 190vh;
   }
+  .section-7 .titre-7 .font-7 {
+    font-size: 50px;
+  }
   .section-7 .cards-7 {
     width: 95%;
     height: 155vh;
@@ -12700,7 +12703,6 @@ textarea.form-control-lg {
     align-items: center;
     flex-flow: wrap;
     margin-left: 20px;
-    background-color: #dc5859;
   }
   .section-7 .cards-7 .card-7 {
     height: 72vh;
@@ -12711,6 +12713,26 @@ textarea.form-control-lg {
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .section-7 {
+    height: 275vh;
+  }
+  .section-7 .titre-7 .font-7 {
+    font-size: 44px;
+  }
+  .section-7 .cards-7 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    width: 90%;
+  }
+  .section-7 .cards-7 .card-7 {
+    height: 78vh;
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 
