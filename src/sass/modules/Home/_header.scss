@@ -4,21 +4,19 @@
     box-sizing: border-box;
 }
 .logo {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 40px;
+    .point{
+        color: #cc1111;
+    }
 }
 .nav-1 {
-    width: 60vw;
-
+    width: 55vw;
     .link-nav {
         width: 50vw;
         color:#868184;
     }
-
-
 }
-
-
 .nav-item:hover {
     color: black;
     border-bottom: 2px solid #ce0f12;
@@ -70,11 +68,27 @@
     height: 35px;
     border: none;
     border-radius: 20px;
-    margin-right: 40px;
+    background-color: #cc1111;
+
+}
+@media (max-width:769px){
+    .logo{
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .conx{
+        margin-right: 5px;
+        width: 100px;
+    }
 }
 @media (min-width:375px) and (max-width:426px){
+    .logo{
+        font-size: 28px;
+        margin-left: 0;
+    }
     .conx{
-        margin-right: 0px;
+        margin-right: 5px;
         width: 120px;
     }
+
 }
