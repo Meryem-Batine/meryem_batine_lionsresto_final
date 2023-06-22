@@ -1110,6 +1110,302 @@
         }
     }
 }
+//^ section 8 ///////////////////////////////
+.section8
+{
+    width: 100vw;
+    height:100vh;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .para8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .p1 {
+            color: #868184;
+            font-size: 38px;        }
+
+        .mince {
+            font-family: "amatic";
+            font-size: 68px;
+            span {
+                color: #cc1111;
+            }
+        }
+    }
+
+    .alls8{
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        background-color:#f7f7f7;
+        gap: 30px;
+        // justify-content: center;
+        // align-items: center;
+        .imgs8{
+            width: 570px;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .formulaire{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 80%;
+            background-color:#f7f7f7
+            ;
+            .input1{
+                width: 100%;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                input{
+                    border-radius: 1px;
+                    border: 1px solid #979595;
+                    height: 4vh;
+                    font-size: 20px;
+                    flex-wrap: wrap;
+                    width: 30%;
+                }
+            }
+            .btns8{
+                .btn8{
+                    font-size: 22px;
+                    border-radius: 16px;
+                    border: none;
+                    width: 190px;
+                    height: 50px;
+                    color: white;
+                    background-color: #cc1111; 
+}
+ :hover{
+                        background-color: #cc1111ee;
+                    }
+                }
+            }
+        }
+    }
+
+
+// * section 8 tablette
+@media (min-width:766px) and (max-width:900px)
+{
+
+    .section8
+{
+    width: 100vw;
+    height:170vh;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .para8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .p1 {
+            color: #868184;
+            font-size: 24px;        }
+
+        .mince {
+            font-family: "amatic";
+            font-size: 50px;
+            span {
+                color: #cc1111;
+            }
+        }
+    }
+
+    .alls8{
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        background-color:#f7f7f7;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+       
+        // justify-content: center;
+        // align-items: center;
+        .imgs8{
+            
+            width: 640px;
+            height: 490px;
+            img{
+              
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .formulaire{
+            display: flex;
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 83vw;
+            height: 80vh;
+            background-color:#f7f7f7;
+            gap: 28px;
+            margin-top: -29px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .input1{
+                width: 100%;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                input{
+                    border-radius: 1px;
+                    border: 1px solid #979595;
+                    height: 6vh;
+                    font-size: 20px;
+                    flex-wrap: wrap;
+                    width: 40%;
+                }
+            }
+            .btns8{
+                .btn8{
+                    font-size: 22px;
+                    border-radius: 16px;
+                    border: none;
+                    width: 190px;
+                    height: 50px;
+                    color: white;
+                    background-color: #cc1111;
+}
+                }
+                .txtarea{
+                    width: 500px;
+                    font-size: 20px;
+                    height: 130px;
+                }
+            }
+        }
+    }
+}
+
+// **mobile sec8
+@media (min-width:375px) and (max-width:426px)
+{
+    .section8
+    {
+        width: 100vw;
+        height:100vh;
+        background-color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .para8 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+            .p1 {
+                color: #868184;
+                font-size: 24px;        }
+    
+            .mince {
+                font-family: "amatic";
+                font-size: 40px;
+                span {
+                    color: #cc1111;
+                }
+            }
+        }
+    
+        .alls8{
+            width: 80%;
+            height: 50vh;
+            display: flex;
+            background-color:#f7f7f7;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            .imgs8{
+                
+                width: 300px;
+                height: 300px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+            .formulaire{
+                display: flex;
+                align-items: center;
+                margin: auto;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 80vw;
+                height: 200vh;
+                background-color:#f7f7f7;
+                gap: 28px;
+                margin-top: -29px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+    
+                .input1{
+                    width: 100%;
+                    display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    input{
+                        border-radius: 1px;
+                        border: 1px solid #979595;
+                        height: 6vh;
+                        font-size: 15px;
+                        flex-wrap: wrap;
+                        width: 80%;
+                    }
+                }
+                .btns8{
+                    .btn8{
+                        font-size: 17px;
+                        border-radius: 16px;
+                        border: none;
+                        width: 180px;
+                        height: 40px;
+                        color: white;
+                        background-color: #cc1111;
+    }
+                    }
+                    .txtarea{
+                        width: 240px;
+                        font-size: 15px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+}
 //^ section 10 ///////////////////////////////////////////////////////
 .section-10{
     height: 200vh;
@@ -1126,16 +1422,19 @@
         }
     }
     .map-contact{
+        
         .maps{
-            background-color: #dc5859;
+            background-color: #f1c206;
             height: 45vh;
             width: 90%;
+            margin-left: 70px;
         }
         .contact-us{
             height: 15vh;
             width: 90%;
             margin-top: 20px;
             background-color: aquamarine;
+            margin-left: 70px;
             .div-1{
                 background-color:#EEEEEE;
                 width: 45%;
@@ -1143,8 +1442,8 @@
                 justify-content:start;
                 align-items: center;
                 .icon-10{
-                    width: 60px;
-                    height: 60px;
+                    width: 70px;
+                    height: 70px;
                     background-color: #cc1111;
                     display: flex;
                     justify-content: center;
@@ -1166,22 +1465,27 @@
         }
         .message{
             margin-top: 10px;
+            margin-left: 70px;
+
             height: 50vh;
             width: 90%;
             background-color: blue;
             .input-1{
-                width: 43vw;
+                width: 46%;
                 height: 8vh;
                 margin-bottom: 15px;
             }
+            .in-2{
+            margin-left: 32px;
+            }
             .input-2{
-                width: 90vw;
+                width: 95%;
                 height: 8vh;
                 margin-bottom: 15px;
 
             }
             .input-3{
-                width: 90vw;
+                width: 95%;
                 height: 20vh;
             }
         }
