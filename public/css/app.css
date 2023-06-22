@@ -13075,7 +13075,6 @@ textarea.form-control-lg {
 .section-5 {
   height: 160vh;
   width: 100%;
-  background-color: rgb(204, 199, 208);
 }
 .section-5 .titre-5 {
   color: #868184;
@@ -13091,39 +13090,39 @@ textarea.form-control-lg {
 .section-5 .titre-menu {
   color: #868184;
   font-size: 16px;
-  background-color: burlywood;
   margin-bottom: 0;
 }
 .section-5 .startes {
   color: #cc1111;
-  background-color: aqua;
 }
 .section-5 .menu {
   width: 100%;
   height: 60vh;
-  background-color: #dc5859;
 }
 .section-5 .menu .plat-1 {
   width: 350px;
   height: 450px;
-  background-color: blue;
   text-align: center;
 }
 .section-5 .menu .plat-1 .img-plat img {
   width: 350px;
   height: 350px;
 }
+.section-5 .menu .plat-1 .menu-text h4, .section-5 .menu .plat-1 .menu-text .h4 {
+  font-size: 20px;
+}
 .section-5 .menu .plat-1 .menu-text p {
   margin: 0;
-  color: #868184;
+  font-size: 14px;
 }
 .section-5 .menu .plat-1 .menu-text .prix-1 {
   color: #cc1111;
+  font-weight: 700;
 }
 
 @media (min-width: 766px) and (max-width: 900px) {
   .section-5 {
-    height: 450vh;
+    height: 440vh;
     margin-top: 20px;
   }
   .section-5 .titre-5 {
@@ -13134,25 +13133,18 @@ textarea.form-control-lg {
   }
   .section-5 .titre-menu {
     font-size: 12px;
-    background-color: burlywood;
     margin-bottom: 0;
   }
   .section-5 .startes {
-    background-color: aqua;
     font-size: 30px;
   }
   .section-5 .menu {
     width: 100%;
     height: 200vh;
-    background-color: #dc5859;
   }
   .section-5 .menu .plat-1 {
     width: 360px;
     height: 450px;
-    background-color: blue;
-  }
-  .section-5 .menu .plat-1 .img-plat {
-    background-color: #201f24;
   }
   .section-5 .menu .plat-1 .img-plat img {
     width: 340px;
@@ -13163,7 +13155,45 @@ textarea.form-control-lg {
     color: #868184;
   }
   .section-5 .menu .plat-1 .menu-text .prix-1 {
-    color: #cc1111;
+    font-size: 20px;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .section-5 {
+    height: 440vh;
+    margin-top: 20px;
+  }
+  .section-5 .titre-5 {
+    font-size: 12px;
+  }
+  .section-5 .font-5 {
+    font-size: 45px;
+  }
+  .section-5 .titre-menu {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .section-5 .startes {
+    font-size: 30px;
+  }
+  .section-5 .menu {
+    width: 100%;
+    height: 202vh;
+  }
+  .section-5 .menu .plat-1 {
+    width: 360px;
+    height: 450px;
+  }
+  .section-5 .menu .plat-1 .img-plat img {
+    width: 340px;
+    height: 350px;
+  }
+  .section-5 .menu .plat-1 .menu-text p {
+    margin: 0;
+    color: #868184;
+  }
+  .section-5 .menu .plat-1 .menu-text .prix-1 {
+    font-size: 20px;
   }
 }
 .section-7 {
