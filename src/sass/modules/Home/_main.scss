@@ -33,7 +33,7 @@
 }
 
 .video:hover {
-    color: red;
+    color:#cc1111;
 }
 
 .section-x {
@@ -55,8 +55,26 @@
             width: 150px;
             height: 45px;
             font-size: 14px;
+            font-weight: 500;
             border-radius: 40px;
             background-color: #cc1111;
+        }
+        .conx:hover{
+            background-color: #db1212e1;
+        }
+        .video:hover{
+            color: #db1212e1;
+        }
+        .watch{
+            i{
+                color: #cc1111;
+            }
+            i:hover{
+                color: #db1212e1;
+            }
+        }
+        .watch:hover{
+            color:#db1212e1 ;
         }
     }
 }
@@ -149,18 +167,16 @@
 
 
 }
-
-
 //^ section 2///////////////////////////////////////////////////////////////
 .section-2 {
     height: 110vh;
     margin-top: 5rem;
     position: relative;
-
     .font-2 {
         font-family: "amatic";
-        font-size: 68px;
+        font-size: 55px;
         color: black;
+        margin-bottom: 50px;
         .txt-red{
             color: #cc1111;
         }
@@ -168,7 +184,7 @@
 
     .titre-2 {
         color: #868184;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .about-img {
@@ -226,9 +242,9 @@
         position: relative;
 
         .titre-2{
-            font-size: 16px;
+            font-size: 13px;
             .font-2 {
-                font-size: 50px;
+                font-size: 45px;
             }
         }
 
@@ -955,8 +971,7 @@
     }
 
     .div-blanc {
-        height: 5vh;
-        width: 100%;
+        height: 0vh;
     }
 }
 
@@ -1032,12 +1047,13 @@
 .section-5{
     height: 160vh;
     width: 100%;
+    padding-top: 50px;
     .titre-5{
         color: #868184;
     }
     .font-5{
         font-family: "amatic";
-        font-size: 68px;
+        font-size: 55px;
         color: black;
         .txt-red{
             color: #cc1111;
@@ -1087,7 +1103,7 @@
         height: 440vh;
         margin-top: 20px;
         .titre-5{
-            font-size: 12px;
+            font-size: 13px;
         }
         .font-5{
             font-size: 45px;
@@ -1181,7 +1197,7 @@
 
         .font-7 {
             font-family: "amatic";
-            font-size: 68px;
+            font-size: 55px;
             color: black;
 
             .clr-7 {
@@ -1230,9 +1246,9 @@
         height: 190vh;
 
         .titre-7 {
-            font-size: 16px;
+            font-size: 13px;
             .font-7 {
-                font-size: 50px;
+                font-size: 45px;
             }
         }
 
@@ -1306,12 +1322,12 @@
 
         .p1 {
             color: #868184;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .mince {
             font-family: "amatic";
-            font-size: 68px;
+            font-size: 55px;
 
             span {
                 color: #cc1111;
@@ -1372,18 +1388,20 @@
             .btns8 {
                 margin-top: 5px;
                 .btn8 {
-                    font-size: 20px;
+                    font-size: 16px;
                     border-radius: 30px;
                     border: none;
-                    width: 190px;
-                    height: 50px;
+                    width: 180px;
+                    height: 45px;
                     color: white;
                     background-color: #cc1111;
                 }
-                .btns8:hover {
-                    background-color: #cc1111ee;
+                .btn8:hover {
+                    background-color: #db1212e1;
+                    
                 }
             }
+
         }
     }
 }
@@ -1406,12 +1424,12 @@
 
             .p1 {
                 color: #868184;
-                font-size: 16px;
+                font-size: 13px;
             }
 
             .mince {
                 font-family: "amatic";
-                font-size: 50px;
+                font-size: 45px;
 
                 span {
                     color: #cc1111;
@@ -1605,7 +1623,9 @@
     height: 180vh;
     padding-top: 50px;
     background-color: #f7f7f7;
-
+    p{
+        margin-bottom: 0;
+    }
     .titre-10 {
         color: #868184;
 
@@ -1734,6 +1754,10 @@
                 border-radius: 30px;
                 background-color: #cc1111;
             }
+            .sendbtn:hover{
+                    background-color: #db1212e1;
+
+            }
         }
     }
 }
@@ -1742,7 +1766,12 @@
 @media (min-width:766px) and (max-width:900px) {
     .section-10 {
         height: 210vh;
-
+        .titre-10{
+            font-size: 10px;
+            .font-10{
+                font-size: 45px;
+            }
+        }
         .map-contact {
             margin-left: 0px;
 
@@ -2080,6 +2109,7 @@
                 p{
                     font-size: 8px;
                     top: 0;
+                    margin-left: 5px;
                 }
             }
         }

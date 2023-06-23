@@ -12184,6 +12184,7 @@ textarea.form-control-lg {
 .nav-1 .link-nav {
   width: 50vw;
   color: #868184;
+  font-weight: 600;
 }
 
 .nav-item:hover {
@@ -12207,12 +12208,12 @@ textarea.form-control-lg {
 
 .dropdown:hover {
   color: black;
-  text-decoration: underline red;
+  text-decoration: 1.5px underline #cc1111;
 }
 
 .dropdown:hover {
   color: black;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #cc1111;
 }
 
 .dropdown-content {
@@ -12223,6 +12224,21 @@ textarea.form-control-lg {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
+}
+
+.drop-2 {
+  color: #868184;
+}
+
+.drop-2:hover {
+  color: #cc1111;
+}
+
+.dropdown-content a {
+  color: #868184;
+}
+.dropdown-content a:hover {
+  color: #cc1111;
 }
 
 .dropdown:hover .dropdown-content {
@@ -12238,10 +12254,14 @@ textarea.form-control-lg {
   background-color: #cc1111;
 }
 
+.conx:hover {
+  background-color: rgba(219, 18, 18, 0.8823529412);
+}
+
 @media (max-width: 769px) {
   .logo {
     font-size: 24px;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .conx {
     margin-right: 5px;
@@ -12286,7 +12306,7 @@ textarea.form-control-lg {
 }
 
 .video:hover {
-  color: red;
+  color: #cc1111;
 }
 
 .section-x {
@@ -12307,8 +12327,24 @@ textarea.form-control-lg {
   width: 150px;
   height: 45px;
   font-size: 14px;
+  font-weight: 500;
   border-radius: 40px;
   background-color: #cc1111;
+}
+.section-x .sct1-btn .conx:hover {
+  background-color: rgba(219, 18, 18, 0.8823529412);
+}
+.section-x .sct1-btn .video:hover {
+  color: rgba(219, 18, 18, 0.8823529412);
+}
+.section-x .sct1-btn .watch i {
+  color: #cc1111;
+}
+.section-x .sct1-btn .watch i:hover {
+  color: rgba(219, 18, 18, 0.8823529412);
+}
+.section-x .sct1-btn .watch:hover {
+  color: rgba(219, 18, 18, 0.8823529412);
 }
 
 @media (max-width: 769px) {
@@ -12390,15 +12426,16 @@ textarea.form-control-lg {
 }
 .section-2 .font-2 {
   font-family: "amatic";
-  font-size: 68px;
+  font-size: 55px;
   color: black;
+  margin-bottom: 50px;
 }
 .section-2 .font-2 .txt-red {
   color: #cc1111;
 }
 .section-2 .titre-2 {
   color: #868184;
-  font-size: 20px;
+  font-size: 18px;
 }
 .section-2 .about-img {
   height: 87vh;
@@ -12445,10 +12482,10 @@ textarea.form-control-lg {
     position: relative;
   }
   .section-2 .titre-2 {
-    font-size: 16px;
+    font-size: 13px;
   }
   .section-2 .titre-2 .font-2 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .section-2 .about-img {
     height: 60vh;
@@ -13014,8 +13051,7 @@ textarea.form-control-lg {
   align-items: center;
 }
 .section-4 .div-blanc {
-  height: 5vh;
-  width: 100%;
+  height: 0vh;
 }
 
 @media (max-width: 769px) {
@@ -13075,13 +13111,14 @@ textarea.form-control-lg {
 .section-5 {
   height: 160vh;
   width: 100%;
+  padding-top: 50px;
 }
 .section-5 .titre-5 {
   color: #868184;
 }
 .section-5 .font-5 {
   font-family: "amatic";
-  font-size: 68px;
+  font-size: 55px;
   color: black;
 }
 .section-5 .font-5 .txt-red {
@@ -13126,7 +13163,7 @@ textarea.form-control-lg {
     margin-top: 20px;
   }
   .section-5 .titre-5 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .section-5 .font-5 {
     font-size: 45px;
@@ -13207,7 +13244,7 @@ textarea.form-control-lg {
 }
 .section-7 .titre-7 .font-7 {
   font-family: "amatic";
-  font-size: 68px;
+  font-size: 55px;
   color: black;
 }
 .section-7 .titre-7 .font-7 .clr-7 {
@@ -13247,10 +13284,10 @@ textarea.form-control-lg {
     height: 190vh;
   }
   .section-7 .titre-7 {
-    font-size: 16px;
+    font-size: 13px;
   }
   .section-7 .titre-7 .font-7 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .section-7 .cards-7 {
     width: 95%;
@@ -13310,11 +13347,11 @@ textarea.form-control-lg {
 }
 .section8 .para8 .p1 {
   color: #868184;
-  font-size: 20px;
+  font-size: 18px;
 }
 .section8 .para8 .mince {
   font-family: "amatic";
-  font-size: 68px;
+  font-size: 55px;
 }
 .section8 .para8 .mince span {
   color: #cc1111;
@@ -13368,16 +13405,16 @@ textarea.form-control-lg {
   margin-top: 5px;
 }
 .section8 .alls8 .formulaire .btns8 .btn8 {
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 30px;
   border: none;
-  width: 190px;
-  height: 50px;
+  width: 180px;
+  height: 45px;
   color: white;
   background-color: #cc1111;
 }
-.section8 .alls8 .formulaire .btns8 .btns8:hover {
-  background-color: rgba(204, 17, 17, 0.9333333333);
+.section8 .alls8 .formulaire .btns8 .btn8:hover {
+  background-color: rgba(219, 18, 18, 0.8823529412);
 }
 
 @media (min-width: 766px) and (max-width: 900px) {
@@ -13398,11 +13435,11 @@ textarea.form-control-lg {
   }
   .section8 .para8 .p1 {
     color: #868184;
-    font-size: 16px;
+    font-size: 13px;
   }
   .section8 .para8 .mince {
     font-family: "amatic";
-    font-size: 50px;
+    font-size: 45px;
   }
   .section8 .para8 .mince span {
     color: #cc1111;
@@ -13565,6 +13602,9 @@ textarea.form-control-lg {
   padding-top: 50px;
   background-color: #f7f7f7;
 }
+.section-10 p {
+  margin-bottom: 0;
+}
 .section-10 .titre-10 {
   color: #868184;
 }
@@ -13673,10 +13713,19 @@ textarea.form-control-lg {
   border-radius: 30px;
   background-color: #cc1111;
 }
+.section-10 .map-contact .div-btn .sendbtn:hover {
+  background-color: rgba(219, 18, 18, 0.8823529412);
+}
 
 @media (min-width: 766px) and (max-width: 900px) {
   .section-10 {
     height: 210vh;
+  }
+  .section-10 .titre-10 {
+    font-size: 10px;
+  }
+  .section-10 .titre-10 .font-10 {
+    font-size: 45px;
   }
   .section-10 .map-contact {
     margin-left: 0px;
@@ -13930,6 +13979,7 @@ textarea.form-control-lg {
   .footer .bottom_ .copyright p {
     font-size: 8px;
     top: 0;
+    margin-left: 5px;
   }
 }
 @media (min-width: 375px) and (max-width: 426px) {
