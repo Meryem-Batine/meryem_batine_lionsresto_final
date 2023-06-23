@@ -85,13 +85,21 @@
         }
     }
 }
-    
-.icon-fix{
-    position: fixed;
-    z-index: 1000;
-    left: 96%;
-}
 
+.up{
+    position: fixed;
+    bottom: 30px;
+    right: -80px;
+    transition: 0.3s;
+    i{
+        font-size: 45px;
+        cursor: pointer;
+    }
+    }
+    .up.show{
+        right: 10px;
+        z-index: 10;
+    }
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .video_f {
     position: fixed;
