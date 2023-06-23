@@ -30,7 +30,7 @@
                         <i class="fa-solid fa-chevron-down fa-sm" style="color: #868184;"></i>
                         <div class="dropdown-content">
                             <a href="#">dropdown1</a>
-                            <!--! dropdow-2------------>
+                            <!--! dropdow-2------------------------------------------->
                             <div class="btn-group">
                                 <span type="text" class="text dropdown-toggle drop-2" data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -53,12 +53,12 @@
             </div>
             <button class="conx mx-md-1 mx-lg-9 ">Connexion</button>
 
-            <!--^ menu-bergre ---------------------------------------->
+            <!--^ menu-bergre ------------------------------------------------------------------------------>
             <div class="menu-bergre d-lg-none">
                 <nav class="navbar ">
-                    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                    <button class="navbar-toggler border-0 border-white" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon "></span>
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
@@ -67,11 +67,12 @@
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
+                        <div class="offcanvas-body drop-0">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
                                     <a class="nav-link text-coleur-link-navv   active" href="#">Home</a>
                                 </li>
+                                <div class="hr"></div>
                                 <li>
                                     <a class="nav-link text-coleur-link-navv  " href="#">About</a>
                                 </li>
@@ -127,22 +128,24 @@
                         <div class="btn-close-vd">
                             <i class="fa-solid fa-xmark" style="font-size: 30px;" id="close-vd"></i>
                         </div>
-                        <iframe class="frame" width="70%" height="65%" src="https://www.youtube.com/embed/Vj4Y1c-DSM0
-            " title="YouTube video player" frameborder="0"
+                        <iframe class="frame" width="70%" height="65%" src="https://www.youtube.com/embed/xuP4g7IDgDM"
+                            title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>
                         </iframe>
                     </div>
-                <!--^ -->
-                
+                    <!--^ -->
+
+                </div>
+            </div>
+            <div class="img-1 mt-5 ">
+                <img src="./public/images/menu/menu-item-1.png" alt="">
             </div>
         </div>
-        <div class="img-1 mt-5 ">
-            <img src="./public/images/menu/menu-item-1.png" alt="">
-        </div>
-        </div>
         <div class="icon-fix">
-            <i class="fa-solid fa-circle-up fa-2xl" style="color: #cc1111;"> <a href="#"></a></i>
+            <a href="#">
+                <i class="fa-solid fa-circle-up fa-2xl" style="color: #cc1111;"></i>
+            </a>
         </div>
     </section>
     <!--* section 2 ------------------------------------------------------------------------------>
@@ -188,10 +191,27 @@
                 </div>
                 <div class="video-2 ">
                     <img src="./public/images/about-2.jpg" alt="" srcset="">
+
+                    <!--? video 2-->
                     <div class="icon-2">
-                        <i class="fa-solid fa-circle-play fa-beat" style="color: #cc1111; font-size: 70px;"></i>     
-                                   </div>
+                        <i class="fa-solid fa-circle-play fa-beat" style="color: #cc1111; font-size: 70px;"
+                            id="btn"></i>
+                    </div>
+                </div>
             </div>
+
+            <div class="video_f">
+                <div class="btn-close-vd">
+                    <i class="fa-solid fa-xmark" style="font-size: 30px;" id="close-vd"></i>
+                </div>
+                <iframe class="frame" width="70%" height="65%" src="https://www.youtube.com/embed/6FgF7hKwcao
+                    " title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </div>
         </div>
 
     </section>
@@ -282,20 +302,24 @@
         </div>
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-secondary bg-white btn-5" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Startes</button>
+                <button class="nav-link text-secondary bg-white btn-5" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Startes</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-secondary bg-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakfast</button>
+                <button class="nav-link text-secondary bg-white" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Breakfast</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-secondary bg-white" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Lunch</button>
+                <button class="nav-link text-secondary bg-white" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">Lunch</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-secondary bg-white" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
-                    type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Dinner</button>
+                <button class="nav-link text-secondary bg-white" id="pills-disabled-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                    aria-selected="false">Dinner</button>
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">

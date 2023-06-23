@@ -12269,6 +12269,16 @@ nav {
   background-color: rgba(219, 18, 18, 0.8823529412);
 }
 
+.menu-berger button {
+  border: none;
+}
+.menu-berger .drop-10 ul li {
+  color: #868184;
+}
+.menu-berger .drop-10 ul li a:hover {
+  border-bottom: 2px solid #cc1111;
+}
+
 @media (max-width: 769px) {
   .logo {
     font-size: 24px;
@@ -12309,7 +12319,7 @@ nav {
 }
 .section-1 .section-x .text-1 .text-1-center {
   font-size: 18px;
-  color: #868184;
+  color: #5c585a;
 }
 
 .video:hover {
@@ -12395,7 +12405,7 @@ nav {
 
 @media (max-width: 769px) {
   .section-1 {
-    height: 135vh;
+    height: 145vh;
     width: 100%;
   }
   .section-1 .section-x {
@@ -12427,7 +12437,7 @@ nav {
 }
 @media (min-width: 375px) and (max-width: 426px) {
   .section-1 {
-    height: 115vh;
+    height: 130vh;
     width: 100%;
   }
   .section-1 .section-x {
@@ -12446,7 +12456,6 @@ nav {
     text-align: center;
     font-size: 38px;
     margin-left: 80px;
-    background-color: aqua;
   }
   .section-1 .section-x .text-1 .text-1-center {
     text-align: center;
@@ -12529,6 +12538,35 @@ nav {
 }
 .section-2 .i-2 {
   margin-bottom: 38px;
+}
+
+.video_f {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(30, 29, 32, 0.9176470588);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+.video_f .btn-close-vd {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 46px;
+}
+.video_f .frame {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video_f.show {
+  display: block;
 }
 
 @media (max-width: 769px) {

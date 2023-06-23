@@ -14,6 +14,13 @@ let contenu =document.querySelector(".video_f");
 let ferme = document.querySelector(".btn-close-vd");
 watchvideo.addEventListener("click",openVideo)
 ferme.addEventListener("click",closeVideo);
+//! vedio 2 ///////////////////////////////////////////////
+let icone_y=document.querySelector("#btn");
+icone_y.addEventListener("click",()=>
+{
+  console.log("h");
+  contenu.classList.add("show");
+})
 //! carousel /////////////////////////////////////////////////////
 let carusel = document.querySelector(".carusel");
 let isDrag = false,
