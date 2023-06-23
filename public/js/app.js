@@ -1,3 +1,14 @@
+//^ connexion //////////////////
+let connexion = document.querySelector(".conx-1");
+console.log(connexion);
+
+connexion.addEventListener("click",()=>{
+    
+    let div = document.createElement("div");
+
+
+})
+
 //! vedio 1 ///////////////////////////////////////////////
 const openVideo=()=>
 {
@@ -55,3 +66,19 @@ const dragStop = (e) => {
 carusel.addEventListener("mouseover", draga);
 carusel.addEventListener("mousedown", dragStart);
 document.addEventListener("mouseup", dragStop);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

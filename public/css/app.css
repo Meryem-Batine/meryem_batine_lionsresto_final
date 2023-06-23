@@ -14144,6 +14144,11 @@ nav {
     height: 130px;
   }
 }
+.section-9 {
+  height: 60vh;
+  width: 100%;
+  background-color: #5c585a;
+}
 .section-10 {
   height: 180vh;
   padding-top: 50px;
