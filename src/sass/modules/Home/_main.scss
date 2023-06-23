@@ -1889,44 +1889,42 @@
     height: 50vh;
     background-color: #e4dcf4;
     background-color: #201f24;
+    padding-top: 100bgpx;
 
     .footer-all {
+        width: 90%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        gap: 80px;
-
         .adresse {
             display: flex;
-            gap: 10px;
-
+            width:25% ;
             .ligne1 {
-
                 i {
-                    font-size: 30px;
+                    font-size: 24px;
                     color: #aba8ac;
-
+                    margin-right: 10px;
                 }
             }
+            p{
+                margin-bottom: 0;
 
+            }
             .p {
                 display: flex;
                 flex-direction: column;
                 width: 280px;
                 height: 160px;
-                font-size: 22px;
+                font-size: 16px;
                 color: #aba8ac;
                 font-weight: 600;
-
                 h5 {
-                    font-size: 26px;
+                    font-size: 18px;
                     color: white;
                     font-weight: bold;
                 }
             }
         }
-
-
         .reservation {
             .p {
                 p {
@@ -1946,16 +1944,16 @@
         .iconef {
             .p {
                 .icones {
-                    gap: 20px;
+                    gap: 10px;
 
                     i {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 76px;
-                        height: 60px;
+                        width: 40px;
+                        height: 40px;
                         border-radius: 60px;
-                        font-size: 30px;
+                        font-size: 24px;
                         border: 1px solid gray;
                     }
                 }
@@ -1971,22 +1969,127 @@
     }
 
     .copyright {
-        font-size: 24px;
+        font-size: 16px;
         color: #aba8ac;
 
         p {
-            font-size: 24px;
+            font-size: 14px;
         }
     }
 }
+//& tablet footer ////////////////////////////////////////////////////
+@media (min-width:766px) and (max-width:900px) {
+    .footer {
+        width: 100%;
+        height: 60vh;
+        background-color: #e4dcf4;
+        background-color: #201f24;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .footer-all {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .adrs-1{
+                margin-left: 0;
+            }
+            .adresse {
+                display: flex;
+                gap: 10px;
+                width: 280px;
+                .ligne1 {
+                    i {
+                        font-size: 20px;
+                        color: #aba8ac;
+                    }
+                }
+                .p {
+                    margin-bottom: -40px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 250px;
+                    height: 140px;
+                    font-size: 12px;
+                    color: #aba8ac;
+                    font-weight: 600;
 
+                    h5 {
+                        font-size: 18px;
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+
+            .reservation {
+                .p {
+                    p {
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .clock {
+                i {
+                    padding-left: 9px;
+                }
+
+                .p {
+                    width: 280px;
+                }
+            }
+
+            .iconef {
+                .p {
+                    width: 280px;
+
+                    .icones {
+                        gap: 16px;
+
+                        i {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 40px;
+                            font-size: 23px;
+                            border: 1px solid gray;
+                        }
+                    }
+                }
+            }
+
+        }
+        .bottom_ {
+            width: 85vw;
+            height: 1px;
+            border: 1px solid gray;
+            margin-top: 0px;
+            .copyright {
+                font-size: 10px;
+                color: #aba8ac;
+                display: flex;
+                .copy {
+                    margin-top: 30px;
+                }
+                p{
+                    font-size: 8px;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
 //?  mobile footer ////////////////////////////////////////////
 @media (min-width:375px) and (max-width:426px) {
-
     .footer {
-
         width: 100vw;
-        height: 120vh;
+        height: 90vh;
         background-color: #e4dcf4;
         background-color: #201f24;
         display: flex;
@@ -1994,27 +2097,22 @@
         justify-content: center;
         align-items: center;
         margin-left: -0px;
-
         .footer-all {
+            width: 100%;
             display: flex;
             flex-direction: column;
-            display: flex;
             justify-content: center;
             align-items: center;
             gap: 0px;
-
             .adresse {
+                width: 100%;
                 display: flex;
-                gap: 10px;
-
                 .ligne1 {
-
                     i {
                         font-size: 18px;
                         color: #aba8ac;
                     }
                 }
-
                 .p {
                     margin-bottom: -40px;
                     display: flex;
@@ -2058,10 +2156,10 @@
                         gap: 16px;
 
                         i {
-                            width: 56px;
-                            height: 56px;
+                            width: 40px;
+                            height: 40px;
                             border-radius: 60px;
-                            font-size: 23px;
+                            font-size: 20px;
                             border: 1px solid gray;
                         }
                     }
@@ -2084,127 +2182,12 @@
 
             p {
                 font-size: 14px;
+                margin: 0;
+                margin-left: 5px;
             }
         }
-    }
-}
-
-//& tablet footer ////////////////////////////////////////////////////
-@media (min-width:766px) and (max-width:900px) {
-    .footer {
-
-        width: 100vw;
-        height: 60vh;
-        background-color: #e4dcf4;
-        background-color: #201f24;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-        .footer-all {
-            width: 98%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 0px;
-
-            .adresse {
-                display: flex;
-                gap: 10px;
-                ;
-                width: 375px;
-                flex-wrap: wrap;
-
-                .ligne1 {
-
-                    i {
-                        font-size: 24px;
-                        color: #aba8ac;
-                    }
-                }
-
-                .p {
-                    margin-bottom: -40px;
-                    display: flex;
-                    flex-direction: column;
-                    width: 280px;
-                    height: 160px;
-                    font-size: 16px;
-                    color: #aba8ac;
-                    font-weight: 600;
-
-                    h5 {
-                        font-size: 20px;
-                        color: white;
-                        font-weight: bold;
-                    }
-                }
-            }
-
-
-            .reservation {
-                .p {
-                    p {
-                        span {
-                            font-weight: bold;
-                        }
-                    }
-                }
-            }
-
-            .clock {
-                i {
-                    padding-left: 9px;
-                }
-
-                .p {
-                    width: 280px;
-                }
-            }
-
-            .iconef {
-                .p {
-                    width: 280px;
-
-                    .icones {
-                        gap: 16px;
-
-                        i {
-                            width: 56px;
-                            height: 56px;
-                            border-radius: 60px;
-                            font-size: 23px;
-                            border: 1px solid gray;
-                        }
-                    }
-                }
-            }
-
-        }
-
         .bottom_ {
-            width: 80vw;
-            height: 1px;
-            border: 1px solid gray;
-            margin-top: 0px;
-
-            .copyright {
-                font-size: 10px;
-                color: #aba8ac;
-                display: flex;
-
-                .copy {
-                    margin-top: 30px;
-                }
-
-                p {
-                    font-size: 12px;
-                    top: 0;
-                }
-            }
+            width: 90%;
         }
     }
 }
